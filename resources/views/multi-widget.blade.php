@@ -1,4 +1,4 @@
-<div class="filament-widget col-span-full">
+<x-filament-widgets::widget class="fi-wi">
     @if ($visibleWidgets)
         <div>
             <div class="block">
@@ -14,4 +14,4 @@
 
         {!! $this->widgetHTML !!}
     @endif
-</div>
+</x-filament-widgets::widget>
